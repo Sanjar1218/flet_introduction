@@ -20,7 +20,7 @@ def main(page: ft.Page):
         ft.Row(
             [
                 ft.IconButton(ft.icons.REMOVE, on_click=minus_click),
-                ft.Image(src=f"/img.jpg", width=100, height=100),
+                ft.Image(src="/img.jpg", width=100, height=100),
                 txt_number,
                 ft.IconButton(ft.icons.ADD, on_click=plus_click),
             ],
